@@ -32,7 +32,7 @@ const App: FC = () => {
             ))}
 
             <input type="text" onChange={(e: any) => setName(e.target.value)} name="" id="" />
-            <input type="date" onChange={(e: any) => setDate(e.target.value)} name="" id="" />
+            <input type="date" onChange={(e: any) => setDate(e.target.value)} name="" id="1" />
             <button onClick={addBook}>click</button>
         </div>
     );
