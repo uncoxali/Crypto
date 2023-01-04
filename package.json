@@ -1,12 +1,14 @@
 {
-    "name": "-cra-typescript",
+    "name": "starter-ts-react",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.5",
         "@emotion/styled": "^11.10.5",
-        "@mui/icons-material": "^5.10.16",
-        "@mui/material": "^5.10.17",
+        "@mui/icons-material": "^5.10.15",
+        "@mui/material": "^5.10.15",
+        "@mui/styled-engine-sc": "^5.10.14",
+        "@reduxjs/toolkit": "^1.9.0",
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^13.0.0",
         "@testing-library/user-event": "^13.2.1",
@@ -14,16 +16,17 @@
         "@types/node": "^16.7.13",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",
-        "axios": "^1.2.1",
-        "eslint-config-airbnb-typescript": "^17.0.0",
-        "highcharts": "^10.3.2",
-        "highcharts-react-official": "^3.1.0",
-        "prettier": "^2.8.0",
-        "prettier-plugin-organize-imports": "^3.2.1",
+        "axios": "^1.2.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-hook-form": "^7.41.5",
+        "react-redux": "^8.0.5",
+        "react-router-dom": "^6.6.1",
         "react-scripts": "5.0.1",
-        "typescript": "^4.9.3",
+        "react-toastify": "^9.1.1",
+        "redux-saga": "^1.2.1",
+        "styled-components": "^5.3.6",
+        "typescript": "*",
         "web-vitals": "^2.1.0"
     },
     "scripts": {
@@ -55,6 +58,7 @@
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^4.28.2",
         "@typescript-eslint/parser": "^4.28.2",
+        "autoprefixer": "^10.4.2",
         "eslint": "^7.16.0",
         "eslint-config-prettier": "^7.1.0",
         "eslint-plugin-import": "^2.23.4",
@@ -64,6 +68,7 @@
         "eslint-plugin-simple-import-sort": "^7.0.0",
         "eslint-plugin-unused-imports": "^1.1.2",
         "husky": "^4.3.7",
-        "prettier": "^2.2.1"
+        "prettier": "^2.2.1",
+        "tailwindcss": "^3.2.4"
     }
 }
