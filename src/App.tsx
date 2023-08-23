@@ -2,16 +2,12 @@ import 'assets/styles/index.css';
 import 'react-toastify/dist/ReactToastify.css';
 
 import React from 'react';
-import { ToastContainer } from 'react-toastify';
-import Router from 'router';
+import { useRoutes } from 'react-router-dom';
+import routes from 'router/routes';
 
 function App() {
-    return (
-        <div>
-            <Router />
-            <ToastContainer />
-        </div>
-    );
+    const routers = useRoutes(routes);
+    return <>{routers}</>;
 }
 
 export default React.memo(App);
