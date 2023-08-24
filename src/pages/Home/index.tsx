@@ -1,3 +1,4 @@
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import { Box, Button, Tooltip, Typography } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -22,13 +23,19 @@ export default function Home() {
                 <Box className="flex-1 min-w-[300px] h-auto border-2 border-green-300 hover:border-green-500 p-5 rounded-md">
                     <Typography>Advance</Typography>
                     <Tooltip title="Activation time after one month">
-                        <Typography mt={4}>D ?</Typography>
+                        <Typography mt={4}>
+                            D <HelpOutlineIcon />
+                        </Typography>
                     </Tooltip>
                     <Tooltip title="Activation time after one week">
-                        <Typography>E ?</Typography>
+                        <Typography>
+                            E <HelpOutlineIcon />
+                        </Typography>
                     </Tooltip>
                     <Tooltip title="Activation time after one day">
-                        <Typography>F ?</Typography>
+                        <Typography>
+                            F <HelpOutlineIcon />
+                        </Typography>
                     </Tooltip>
 
                     <Box mt={5}>
