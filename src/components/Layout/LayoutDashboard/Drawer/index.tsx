@@ -36,7 +36,7 @@ export default function TemporaryDrawer() {
 
     const list = (anchor: Anchor) => (
         <Box
-            className="w-[250px]"
+            className="w-[250px] p-5"
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
@@ -56,7 +56,7 @@ export default function TemporaryDrawer() {
     );
 
     return (
-        <div className="h-10 w-full bg-neutral-300">
+        <div className="h-10 w-full bg-neutral-100">
             {(['left'] as const).map((anchor) => (
                 <React.Fragment key={anchor}>
                     <Button onClick={toggleDrawer(anchor, true)}>
